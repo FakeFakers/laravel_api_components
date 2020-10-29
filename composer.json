@@ -1,0 +1,32 @@
+{
+    "name": "FakeFakers/laravel-api-components",
+    "description": "Set of useful Laravel components",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Net Gaylord",
+            "email": "fakefakers@yandex.ru"
+        }
+    ],
+    "require": {
+        "php": ">=7.2",
+        "ext-json": "*",
+        "laravel/framework": "5.6.*|5.7.*|5.8.*|6.*|7.*",
+        "symfony/psr-http-message-bridge": "~1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "FakeFakers\\ApiComponents\\": "src/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    },
+    "config": {
+        "preferred-install": "dist",
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
